@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nemo {
+    width: 350px;
+    height: 1000px;
+    background-color: #F5F5F5;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.nemo h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.links {
+    margin-top: 100px;
+}
+
+.links p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.links a {
+    color: rgb(188, 188, 188);
+    transition: all 0.3s;
+}
+
+.ficu {
+    margin-top: 80px;
+}
+
+.ficu p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(188, 188, 188);
+}
+
+.ficu a {
+    color: #F0642C;
+}
+
+.social {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social a {
+    color: rgb(80, 80, 80);
+    padding: 8px;
+    transition: all 0.3s;
+}
+
+.main {
+    margin-left: 350px;
+}
+
+.profile {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    clip-path: circle();
+}
+
+.hello p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(188, 188, 188);
+    font-weight: 300;
+}
+
+.hello h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    margin-top: 20px;
+}
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.me a {
+    color: rgb(188, 188, 188);
+    border-bottom: 1px solid rgb(188, 188, 188);
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+.me a:hover {
+    color: rgb(155, 155, 155);
+}
+
+#calculator {
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    background-color: slategray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 300px;
+}
+
+#screen {
+    padding: 10px 0px 10px 0px;
+}
+
+#result {
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    text-align: right;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 2px;
+    background-color: whitesmoke;
+    border: none;
+}
